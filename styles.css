@@ -1,0 +1,97 @@
+
+body
+{
+    text-align: center;
+}
+h1
+{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding-bottom: 20px;
+}
+p
+{
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 50px;
+    
+}
+
+img
+{
+    padding-bottom: 30px;
+}
+
+.struct
+{
+   margin: 5rem 9rem 3rem;
+}
+.sedan
+{
+
+    background-color: hsl(31, 77%, 52%);
+    padding: 3rem;
+    text-align: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.suv
+{
+
+    background-color: hsl(184, 100%, 22%);
+    padding: 3rem;
+    text-align: left;
+}
+.luxury
+{
+
+    background-color:hsl(179, 100%, 13%);
+    padding: 3rem;
+    text-align: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+}
+
+.orange
+{
+    color: hsl(31, 77%, 52%);
+}
+.cyan
+{
+    color:  hsl(184, 100%, 22%);
+}
+.dark-cyan
+{
+    color: hsl(179, 100%, 13%); ;
+}
+.orange:hover
+{
+   background-color: hsl(31, 77%, 52%);
+   color:white;
+}
+.cyan:hover
+{
+   background-color: hsl(184, 100%, 22%); ;
+   color:white;
+}
+.dark-cyan:hover
+{
+   background-color: hsl(179, 100%, 13%); 
+   color:white;
+}
+
+.btn
+{
+    border-radius:2.5rem;
+    padding: 5% 15%;
+    font-size: 15px;
+    
+}
+@media (max-width:376px)
+{
+    .struct{
+        margin: 3rem 1.5rem;
+    }
+}

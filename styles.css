@@ -89,6 +89,20 @@ img
     font-size: 15px;
     
 }
+
+@media (max-width:991.5px)
+{
+    .sedan
+    {
+        border-top-right-radius:5px ;
+        border-bottom-left-radius: 0;
+    }
+    .luxury
+    {
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+    }
+}
 @media (max-width:376px)
 {
     .struct{

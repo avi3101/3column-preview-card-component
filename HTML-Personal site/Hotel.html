@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Registration form
+    </title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+      <h1 style="text-align: center;">HOSTEL ADMISSION FORM</h1>
+      <hr>
+
+      <form style="text-align: center;" action="index.html" method="POST" enctype="text/plain">
+        <div>
+            <label for="photo"><img src="C:\Users\Aakash Rai\OneDrive\Pictures\New folder\IMG_0007.jpg" height="100px" width="100px" alt="submit">  </label>
+            <input type="image" name="photo">
+        </div>
+        <br>
+        <div>
+          <label for="first-name">Name Of Student:&nbsp;&nbsp;</label>
+          <input type="text" name="first-name" placeholder="Avinash Rai" required>
+        </div>
+         <br> 
+          <div>
+          <label for="apllicant">Applicant:&nbsp;&nbsp;</label>
+          <label for="applicant">new</label>
+          <input type="radio" name="applicant" value="choice 1">
+          <label for="applicant">old</label>
+          <input type="radio" name="applicant" value="choice 2">
+        </div>
+        <br>
+        <div>
+            <label for="merit">Student Merit no.&nbsp;&nbsp;</label>
+            <input type="text" name="merit" placeholder="2019BCS056" required>
+  
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:&nbsp;&nbsp;</label>
+          <label for="gender">Male</label>
+          <input type="radio" name="gender" value="choice 1">
+          <label for="gender">Female</label>
+          <input type="radio" name="gender" value="choice 2">
+          <label for="gender">Other</label>
+          <input type="radio" name="gender" value="choice 3">
+        </div>
+        <br>
+        <div>
+            <label for="class">Class:&nbsp;&nbsp;</label>
+            <select name="class">
+                <option value="0" selected disabled>class</option>
+                <option value="fy">FY</option>
+                <option value="sy">SY</option>
+                <option value="ty">TY</option>
+                <option value="btech">BTECH</option>
+                <option value="mt-1">MTECH-1</option>
+                <option value="mt-2">MTECH-2</option>
+
+            </select>
+        </div>
+        <br>
+        
+        
+       
+        <div>
+            <label for="img">Upload your passport size image:&nbsp;&nbsp;</label>
+         <input type="file" name="img">
+        
+        </div>
+        <br>
+        <div>
+            <label for="check">accept all terms and coditions</label>
+            <input type="checkbox" name="check">
+            <br><br>
+            <button>submit</button>
+        </div>
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

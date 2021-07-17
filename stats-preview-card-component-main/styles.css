@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+h1
+{
+    font-size: 2rem;
+}
+h1,h4
+{
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+p
+{
+    font-size: 0.8REM;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+span
+{
+    color: hsl(277, 64%, 61%);
+}
+.dibba
+{
+    
+    margin: 15%;
+    padding: 0;
+}
+
+.card1
+{
+    text-align: left;
+    background-color: hsl(244, 38%, 16%);
+    padding: 4rem 4rem 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.stat
+{
+    padding:3rem 0 0;
+    margin-bottom: 0;
+}
+.card2
+{
+   
+   background-color: hsl(277, 96%, 27%);
+   padding: 0;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+  
+}
+.work
+{   
+  width: 100%;
+  height: 100%; 
+  opacity: 0.5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+@media(max-height:375px)
+{
+    .dibba
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card2
+    {
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 0px;
+    }
+    .card1
+    {
+        text-align: center;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 5px;
+    }
+    .work
+    {
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 0;
+    }
+
+}
